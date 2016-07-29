@@ -1,0 +1,1 @@
+::searchapp::-path "C:\Users\Hoang Anh\Desktop\Apps\"
