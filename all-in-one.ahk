@@ -15,3 +15,4 @@
 #Include C:\Program Files\AutoHotkey\scripts\useful-command.ahk
 #Include C:\Program Files\AutoHotkey\scripts\git-command.ahk
 #Include C:\Program Files\AutoHotkey\scripts\php-command.ahk
+#Include C:\Program Files\AutoHotkey\scripts\me.ahk

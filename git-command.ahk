@@ -4,4 +4,4 @@
 ::git add commit -m::git add -A & git commit -m
 ::git branch remove::git branch -d
 ::git config --global push origin master::git config --global push.default simple
-::git push origin::git push origin master
+::git push::git push origin master
