@@ -10,7 +10,6 @@
 #Include C:\Program Files\AutoHotkey\scripts\special-character.ahk
 ;#Include C:\Program Files\AutoHotkey\scripts\create-new-file.ahk
 ;#Include C:\Program Files\AutoHotkey\scripts\left-alt-to-win-key.ahk
-#Include C:\Program Files\AutoHotkey\scripts\ssh-digital-ocean.ahk
 ;#Include C:\Program Files\AutoHotkey\scripts\chown-www-data.ahk
 #Include C:\Program Files\AutoHotkey\scripts\useful-command.ahk
 #Include C:\Program Files\AutoHotkey\scripts\git-command.ahk
