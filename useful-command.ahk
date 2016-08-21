@@ -32,3 +32,10 @@ return
 ^V::SendInput {Raw}%clipboard%
 return
 #IfWinActive
+
+;---------------------------------------------------------------------
+;Ctrl+L clear windows console as linux style
+#IfWinActive ahk_class ConsoleWindowClass
+^L::Send cls{Enter}
+return
+#IfWinActive
