@@ -6,3 +6,4 @@
 ::git config --global push origin master::git config --global push.default simple
 ::git push::git push origin master
 ::git pull::git pull origin master
+::git log::git log --oneline

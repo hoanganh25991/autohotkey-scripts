@@ -1,3 +1,6 @@
 ;-----------------------------------
 ;voi con ft meo con
-::meocon::128.199.237.219/voi-con-ft-meo-con.mp4
+::meocon ft::https://tinker.press/voi-con-ft-meo-con.mp4
+::meo con ft::https://tinker.press/voi-con-ft-meo-con.mp4
+::ma no ft::https://tinker.press/voi-con-ft-meo-con.mp4
+::ba xa ft::https://tinker.press/voi-con-ft-meo-con.mp4
