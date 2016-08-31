@@ -39,3 +39,24 @@ return
 ^L::Send cls{Enter}
 return
 #IfWinActive
+
+;get mac address in window
+::get mac address::getmac
+;::mac address::getmac
+
+::ls::ls -la
+
+::start menu::C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+
+::host file::C:\Windows\System32\drivers\etc\
+
+::cygwin::C:\Users\hoanganh25991\cygwin
+
+::default gitignore::php D:\work-station\php-scripts\make-gitignore.php
+::make gitignore::php D:\work-station\php-scripts\make-gitignore.php
+::generate gitignore::php D:\work-station\php-scripts\make-gitignore.php
+
+::ssh beagle bone::ssh -p 1028 root@tinker.hopto.org
+
+::ssh tinker.press::ssh root@tinker.press
+

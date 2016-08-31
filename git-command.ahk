@@ -7,3 +7,5 @@
 ::git push::git push origin master
 ::git pull::git pull origin master
 ::git log::git log --oneline
+::git remote delete::git push origin --delete
+::git clone single branch::git clone --single-branch -b

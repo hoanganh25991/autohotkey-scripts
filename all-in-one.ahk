@@ -8,3 +8,4 @@
 #Include C:\Program Files\AutoHotkey\scripts\php-command.ahk
 #Include C:\Program Files\AutoHotkey\scripts\me.ahk
 #Include C:\Program Files\AutoHotkey\scripts\hint.ahk
+#Include C:\Program Files\AutoHotkey\scripts\server-command.ahk

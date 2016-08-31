@@ -8,8 +8,8 @@
 
 ::auto deploy::https://tinker.press/github-webhook.php
 
-;clear in linux: reset ^L, in window: cls
-#IfWinActive ahk_class ConsoleWindowClass
-^L::Send cls {Enter}
-return
-#IfWinActive
+::getip::ip route get 1 | awk '{{}print $NF;exit{}}'
+::get ip::ip route get 1 | awk '{{}print $NF;exit{}}'
+;::public ip::wget http://ipinfo.io/ip -qO -
+::get public ip::wget http://ipinfo.io/ip -qO -
+
