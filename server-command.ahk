@@ -2,6 +2,7 @@
 ::cat::more
 
 ;when type 'chown www-data' append to 'chown -R www-data:www-data *'
+;::chown www-data::chown -R www-data:www-data * & chown -R www-data:www-data .git/*
 ::chown www-data::chown -R www-data:www-data *
 
 ::ubuntu version::lsb_release -a
@@ -26,3 +27,10 @@
 ::add user::sudo useradd
 
 ::sftp tinker::sftp root@tinker.press
+
+;::chown git www-data::chown -R www-data:www-data .git/*
+::larvel port::8080
+::node port::1234
+::com port::3000
+::polymer port::3001
+::ssh use password::ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no <user>@<ip>
