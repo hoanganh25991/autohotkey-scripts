@@ -148,6 +148,7 @@ ConvertUtf8(ByRef string)
 ::get bootstrap css::<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" />
 ::get boostrap js::<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 ::lorem single::Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+::lorem short::Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ::switch to root::sudo su -
 ::switch root::sudo su -
 ::sd mode::-sds6ulabmaffah
@@ -161,3 +162,4 @@ ConvertUtf8(ByRef string)
 ::web app shortcut::"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --profile-directory=Default --app-id=
 ::open editor::code .
 ;code . //means open current folder in vscode
+\::Send, {BS}
