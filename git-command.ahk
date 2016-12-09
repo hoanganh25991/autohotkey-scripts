@@ -9,7 +9,7 @@
 ::git config --global push origin master::git config --global push.default simple
 ;::git push::git push origin master
 ;::git pull::git pull origin master
-::git log::git log --oneline
+::git log::git log --oneline --notes
 ::git remote delete::git push origin --delete
 ::git clone single branch::git clone --single-branch -b
 ::git clone branch::git clone -b
