@@ -54,7 +54,8 @@ return
 
 ::start menu::C:/ProgramData/Microsoft/Windows/Start Menu/Programs
 
-::host file::C:/Windows/System32/drivers/etc/
+::host file::subl C:/Windows/System32/drivers/etc/hosts
+::edit host::C:/Windows/System32/drivers/etc/
 
 ::cygwin::C:/Users/hoanganh25991/cygwin
 
@@ -80,7 +81,8 @@ return
 
 ::pi vnc::tinker.hopto.org:1033
 
-::ssh tinker::ssh root@tinker.press
+;::ssh tinker::ssh root@tinker.press
+::ssh tinker::ssh root@128.199.109.195
 
 ;::ascii emoticon::http://upli.st/l/list-of-all-ascii-emoticons
 ;::ascii emo::http://upli.st/l/list-of-all-ascii-emoticons
@@ -88,14 +90,15 @@ return
 ::write speed::sync; time dd if=/dev/zero of=~/test.tmp bs=500K count=1024; time sync
 ::read speed::dd if=~/test.tmp of=/dev/null bs=500K count=1024
 
-::known host::C:/Users/hoanganh25991/.ssh/
-::know host::C:/Users/hoanganh25991/.ssh/
-::authorized key::C:/Users/hoanganh25991/.ssh
+;::authorized key::C:/Users/hoanganh25991/.ssh
+::public key::subl C:/Users/hoanganh25991/.ssh/id_rsa.pub
+::.ssh::C:/Users/hoanganh25991/.ssh
+;::ssh::C:/Users/hoanganh25991/.ssh
 
 ::test disk speed::sudo dd if=/dev/zero of=/tmp/output bs=8k count=10k; sudo rm -f /tmp/output
 ::disk speed::sudo dd if=/dev/zero of=/tmp/output bs=8k count=10k; sudo rm -f /tmp/output
 ::disk sync speed::sudo dd if=/dev/zero of=/tmp/output bs=512 count=1000 oflag=dsync; sudo rm -f /tmp/output
-::disk usage::df --total -h | grep total
+::disk usage::df --total -h | grep -E '(Filesystem|total)'
 
 ::ping room::nmap -sn 192.168.1.0-255
 
@@ -157,3 +160,20 @@ ConvertUtf8(ByRef string)
 ;code . //means open current folder in vscode
 ;backspace
 ;\::Send, {BS}
+::internal ip::ifconfig eth0 | grep inet | awk '{{} print $2 {}}'
+::ssh smu confession::ssh root@smuconfess.originally.us
+::memory usage::free -m | grep -E '(total|used|free|Mem|Swap)'
+::install cpuusage::sudo apt-get install -y sysstat gawk
+::truncate known host::truncate --size=0 C:/Users/hoanganh25991/.ssh/known_hosts
+::apt-get install::apt-get install --yes
+::add virtual host::subl C:/xampp/apache/conf/extra/httpd-vhosts.conf
+;::service apache2 restart::httpd -k restart
+::yahoo::(ﾉ^∇^)ﾉﾟ
+::yahoo::Send {(ﾉ{^}∇^)ﾉﾟ}
+::enable service::systemctl enable <name>.service
+::random pass::node D:\work-station\node-scripts\random-pass\index.js
+::arteastiq pass::L5htMG7qNJss454v
+::github embed youtube::[![video thumbnail](https://i.ytimg.com/vi/woq-z6a0Q_Y/2.jpg?time=1485757017422)](https://youtu.be/woq-z6a0Q_Y)
+::known host::C:\Users\hoanganh25991\.ssh
+::la la la::＼＿ヘ(ᐖ◞)､
+::init console image::{!}function(a){{}let b=function(a,b){{}return{{}string:"{+}",style:"font-size: 1px; padding: "{+}Math.floor(b/2){+}"px "{+}Math.floor(a/2){+}"px; line-height: "{+}b{+}"px;"{}}{}},c=function(c,d){{}d=d||1;let e=new Image;e.onload=function(){{}let e=b(this.width*d,this.height*d);a.log("%c"{+}e.string,e.style{+}"background: url("{+}c{+}"); background-size: "{+}this.width*d{+}"px "{+}this.height*d{+}"px; color: transparent;"){}},e.src=c{}};a.image=c{}}(console);
