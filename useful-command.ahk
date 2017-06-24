@@ -81,8 +81,8 @@ return
 
 ::pi vnc::tinker.hopto.org:1033
 
-;::ssh tinker::ssh root@tinker.press
-::ssh tinker::ssh root@128.199.109.195
+::ssh tinker::ssh root@tinker.press
+;::ssh tinker::ssh root@128.199.109.195
 
 ;::ascii emoticon::http://upli.st/l/list-of-all-ascii-emoticons
 ;::ascii emo::http://upli.st/l/list-of-all-ascii-emoticons
@@ -92,7 +92,7 @@ return
 
 ;::authorized key::C:/Users/hoanganh25991/.ssh
 ::public key::subl C:/Users/hoanganh25991/.ssh/id_rsa.pub
-::.ssh::C:/Users/hoanganh25991/.ssh
+;::.ssh::C:/Users/hoanganh25991/.ssh
 ;::ssh::C:/Users/hoanganh25991/.ssh
 
 ::test disk speed::sudo dd if=/dev/zero of=/tmp/output bs=8k count=10k; sudo rm -f /tmp/output
@@ -128,7 +128,7 @@ ConvertUtf8(ByRef string)
 ::heroku one instance::heroku ps:scale web=1
 ::format dir::node D:/work-station/node-scripts/format-file-name-in-dir/index.js
 ::fuckkkk::t(-__-t)
-::sandbox::cd /d D:/storage & D:/storage/locker.bat & reset
+::sandbox::cd /d D:/storage & D:/storage/locker.bat & clear
 ::parse blade::node D:/work-station/node-scripts/parse-blade/index.js
 ::node increase memory size::node --max-old-space-size=1024
 ::node memmory::node --max-old-space-size=1024
@@ -151,7 +151,7 @@ ConvertUtf8(ByRef string)
 ;::php shell::php D:/program/php-5.6.22-win32-vc11-x64/shell.php
 ::php shell::psysh
 ;::composer install::composer require
-::play sound::omxplayer
+;::play sound::omxplayer
 ::public localhost::ngrok http <port>
 ::get favicon::https://www.google.com/s2/favicons?domain=
 ::askq::[???]
@@ -177,3 +177,24 @@ ConvertUtf8(ByRef string)
 ::known host::C:\Users\hoanganh25991\.ssh
 ::la la la::＼＿ヘ(ᐖ◞)､
 ::init console image::{!}function(a){{}let b=function(a,b){{}return{{}string:"{+}",style:"font-size: 1px; padding: "{+}Math.floor(b/2){+}"px "{+}Math.floor(a/2){+}"px; line-height: "{+}b{+}"px;"{}}{}},c=function(c,d){{}d=d||1;let e=new Image;e.onload=function(){{}let e=b(this.width*d,this.height*d);a.log("%c"{+}e.string,e.style{+}"background: url("{+}c{+}"); background-size: "{+}this.width*d{+}"px "{+}this.height*d{+}"px; color: transparent;"){}},e.src=c{}};a.image=c{}}(console);
+::smile::(ﾟヮﾟ)
+::create custom element::subl D:\work-station\snippets\custom-element.html
+::docker terminal::sh "C:\Program Files\Docker Toolbox\start.sh"
+::ssh reservation::ssh root@alfred.hoipos.com
+::ssh hoipos::ssh root@pos.hoicard.com
+::set mysql pass::mysqladmin -u root password NEWPASSWORD
+::change mysql pass::mysqladmin -u root -p'oldpassword' password newpass
+::demo bash file::D:\work-station\demo.sh
+::gitzip::access_token=4a7056919a0a71202a544332e65cc82898b417c5&scope=repo&token_type=bearer
+::start mysql::mysqld --datadir="C:\ProgramData\MySQL\MySQL Server 5.7\Data"
+::create reducer::subl "D:\work-station\simple-reducer.js"
+::top memory::ps aux --sort=-%mem | awk 'NR<=10{{}print $0{}}'
+::path work station::path:d:\work-station
+::workstation path::path:d:\work-station
+::no inspector:://noinspection JSUnresolvedFunction
+::warn background::FDD835
+::nowlog::copy(moment().format('YYYY-MM-DD HH:mm:ss'))
+::hoi hash::https://runkit.com/hoanganh25991/5927e12ec2d9b00012778bb1
+::fiddle::https://fiddle.jshell.net/
+::flip table::(╯°□°）╯︵ ┻━┻﻿
+::ssh vagrant::vagrant ssh
