@@ -1,12 +1,12 @@
 #SingleInstance force
-#Include C:\Program Files\AutoHotkey\scripts\open-cmd.ahk
-#Include C:\Program Files\AutoHotkey\scripts\php-hotkey-$.ahk
-#Include C:\Program Files\AutoHotkey\scripts\autohotkey-command.ahk
-#Include C:\Program Files\AutoHotkey\scripts\special-character.ahk
-#Include C:\Program Files\AutoHotkey\scripts\useful-command.ahk
-#Include C:\Program Files\AutoHotkey\scripts\git-command.ahk
-#Include C:\Program Files\AutoHotkey\scripts\php-command.ahk
-#Include C:\Program Files\AutoHotkey\scripts\me.ahk
-#Include C:\Program Files\AutoHotkey\scripts\hint.ahk
-#Include C:\Program Files\AutoHotkey\scripts\server-command.ahk
-#Include C:\Program Files\AutoHotkey\scripts\mysql.ahk
+#Include D:\work-station\autohotkey-scripts\open-cmd.ahk
+#Include D:\work-station\autohotkey-scripts\php-hotkey-$.ahk
+#Include D:\work-station\autohotkey-scripts\autohotkey-command.ahk
+#Include D:\work-station\autohotkey-scripts\special-character.ahk
+#Include D:\work-station\autohotkey-scripts\useful-command.ahk
+#Include D:\work-station\autohotkey-scripts\git-command.ahk
+#Include D:\work-station\autohotkey-scripts\php-command.ahk
+#Include D:\work-station\autohotkey-scripts\me.ahk
+#Include D:\work-station\autohotkey-scripts\hint.ahk
+#Include D:\work-station\autohotkey-scripts\server-command.ahk
+#Include D:\work-station\autohotkey-scripts\mysql.ahk

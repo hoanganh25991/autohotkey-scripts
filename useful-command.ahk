@@ -5,7 +5,8 @@
 
 ::sendto::%appdata%/microsoft/windows/sendto
 
-::hotkey::%programfiles%/AutoHotkey/scripts
+::hotkey::D:\work-station\autohotkey-scripts
+::hot key::D:\work-station\autohotkey-scripts
 
 ;dc index transform
 ::dc index transform::php %PHP_SCRIPTS%/dc-js-index-transform.php
@@ -57,7 +58,7 @@ return
 ::host file::subl C:/Windows/System32/drivers/etc/hosts
 ::edit host::C:/Windows/System32/drivers/etc/
 
-::cygwin::C:/Users/hoanganh25991/cygwin
+::cygwin::C:/Users/admin/cygwin
 
 ::default gitignore::php D:/work-station/php-scripts/make-gitignore.php
 ::make gitignore::php D:/work-station/php-scripts/make-gitignore.php
@@ -90,10 +91,10 @@ return
 ::write speed::sync; time dd if=/dev/zero of=~/test.tmp bs=500K count=1024; time sync
 ::read speed::dd if=~/test.tmp of=/dev/null bs=500K count=1024
 
-;::authorized key::C:/Users/hoanganh25991/.ssh
-::public key::subl C:/Users/hoanganh25991/.ssh/id_rsa.pub
-;::.ssh::C:/Users/hoanganh25991/.ssh
-;::ssh::C:/Users/hoanganh25991/.ssh
+;::authorized key::C:/Users/admin/.ssh
+::public key::subl C:/Users/admin/.ssh/id_rsa.pub
+;::.ssh::C:/Users/admin/.ssh
+;::ssh::C:/Users/admin/.ssh
 
 ::test disk speed::sudo dd if=/dev/zero of=/tmp/output bs=8k count=10k; sudo rm -f /tmp/output
 ::disk speed::sudo dd if=/dev/zero of=/tmp/output bs=8k count=10k; sudo rm -f /tmp/output
@@ -164,7 +165,7 @@ ConvertUtf8(ByRef string)
 ::ssh smu confession::ssh root@smuconfess.originally.us
 ::memory usage::free -m | grep -E '(total|used|free|Mem|Swap)'
 ::install cpuusage::sudo apt-get install -y sysstat gawk
-::truncate known host::truncate --size=0 C:/Users/hoanganh25991/.ssh/known_hosts
+::truncate known host::truncate --size=0 C:/Users/admin/.ssh/known_hosts
 ::apt-get install::apt-get install --yes
 ::add virtual host::subl C:/xampp/apache/conf/extra/httpd-vhosts.conf
 ;::service apache2 restart::httpd -k restart
@@ -174,7 +175,7 @@ ConvertUtf8(ByRef string)
 ::random pass::node D:\work-station\node-scripts\random-pass\index.js
 ::arteastiq pass::L5htMG7qNJss454v
 ::github embed youtube::[![video thumbnail](https://i.ytimg.com/vi/woq-z6a0Q_Y/2.jpg?time=1485757017422)](https://youtu.be/woq-z6a0Q_Y)
-::known host::C:\Users\hoanganh25991\.ssh
+::known host::C:\Users\admin\.ssh
 ::la la la::＼＿ヘ(ᐖ◞)､
 ::init console image::{!}function(a){{}let b=function(a,b){{}return{{}string:"{+}",style:"font-size: 1px; padding: "{+}Math.floor(b/2){+}"px "{+}Math.floor(a/2){+}"px; line-height: "{+}b{+}"px;"{}}{}},c=function(c,d){{}d=d||1;let e=new Image;e.onload=function(){{}let e=b(this.width*d,this.height*d);a.log("%c"{+}e.string,e.style{+}"background: url("{+}c{+}"); background-size: "{+}this.width*d{+}"px "{+}this.height*d{+}"px; color: transparent;"){}},e.src=c{}};a.image=c{}}(console);
 ::smile::(ﾟヮﾟ)
@@ -194,7 +195,17 @@ ConvertUtf8(ByRef string)
 ::no inspector:://noinspection JSUnresolvedFunction
 ::warn background::FDD835
 ::nowlog::copy(moment().format('YYYY-MM-DD HH:mm:ss'))
-::hoi hash::https://runkit.com/hoanganh25991/5927e12ec2d9b00012778bb1
+::hoi hash::https://runkit.com/admin/5927e12ec2d9b00012778bb1
 ::fiddle::https://fiddle.jshell.net/
 ::flip table::(╯°□°）╯︵ ┻━┻﻿
 ::ssh vagrant::vagrant ssh
+::start ubuntu 14::cd d:\work-station\vagrant-images\ubuntu-trusty64 && vagrant up && vagrant ssh
+::start ubuntu 16::cd d:\work-station\vagrant-images\ubuntu-1604 && vagrant up && vagrant ssh
+;::start ubuntu::cd d:\work-station\vagrant-images\ubuntu-xenial64 && vagrant up && vagrant ssh
+::mklink junction::mklink /J <des> <src>
+::make junction::mklink /J <des> <src>
+::console facebook::developers.facebook.com
+::generate doc::postmanerator -output=./doc.html -collection=collection.json
+::cloud console::https://console.cloud.google.com/home/dashboard?project=glass-turbine-148103
+::cloud function::https://console.cloud.google.com/functions/list?project=glass-turbine-148103
+::firebase console::https://console.firebase.google.com/project/glass-turbine-148103/overview
