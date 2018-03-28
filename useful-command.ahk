@@ -209,3 +209,6 @@ ConvertUtf8(ByRef string)
 ::cloud console::https://console.cloud.google.com/home/dashboard?project=glass-turbine-148103
 ::cloud function::https://console.cloud.google.com/functions/list?project=glass-turbine-148103
 ::firebase console::https://console.firebase.google.com/project/glass-turbine-148103/overview
+::ssh ec2::ssh root@ec2.tinker.press
+::ssh do2::ssh root@do2.tinker.press
+::prettier default::prettier --write --no-semi --print-width 120 *
