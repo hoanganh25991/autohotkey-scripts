@@ -5,8 +5,8 @@
 
 ::sendto::%appdata%/microsoft/windows/sendto
 
-::hotkey::D:\work-station\autohotkey-scripts
-::hot key::D:\work-station\autohotkey-scripts
+::hotkey::C:\work-station\autohotkey-scripts
+::hot key::C:\work-station\autohotkey-scripts
 
 ;dc index transform
 ::dc index transform::php %PHP_SCRIPTS%/dc-js-index-transform.php
@@ -51,7 +51,7 @@ return
 ::get mac address::getmac
 ;::mac address::getmac
 
-::ls::ls -la
+::ls::ls -lah
 
 ::start menu::C:/ProgramData/Microsoft/Windows/Start Menu/Programs
 
@@ -60,29 +60,29 @@ return
 
 ::cygwin::C:/Users/admin/cygwin
 
-::default gitignore::php D:/work-station/php-scripts/make-gitignore.php
-::make gitignore::php D:/work-station/php-scripts/make-gitignore.php
-::generate gitignore::php D:/work-station/php-scripts/make-gitignore.php
+::default gitignore::php C:/work-station/php-scripts/make-gitignore.php
+::make gitignore::php C:/work-station/php-scripts/make-gitignore.php
+::generate gitignore::php C:/work-station/php-scripts/make-gitignore.php
 
 ::ssh bea::ssh bea@192.168.0.78
 
-::default package::php D:/work-station/php-scripts/default-package.php
+::default package::php C:/work-station/php-scripts/default-package.php
 
-::format filename::node D:/work-station/node-scripts/format-file-name/index.js
+::format filename::node C:/work-station/node-scripts/format-file-name/index.js
 
-::format file name::node D:/work-station/node-scripts/format-file-name/index.js
+::format file name::node C:/work-station/node-scripts/format-file-name/index.js
 
-;::parse markdown::php D:/work-station/php-scripts/parse-markdown.php
+;::parse markdown::php C:/work-station/php-scripts/parse-markdown.php
 
-::node script::D:/work-station/node-scripts
+::node script::C:/work-station/node-scripts
 
-::parse markdown::node D:/work-station/node-scripts/parse-markdown-github-style/index.js
+::parse markdown::node C:/work-station/node-scripts/parse-markdown-github-style/index.js
 
 ::ssh pie::ssh pi@192.168.0.9
 
 ::pi vnc::tinker.hopto.org:1033
 
-::ssh tinker::ssh root@tinker.press
+;::ssh tinker::ssh root@tinker.press
 ;::ssh tinker::ssh root@128.199.109.195
 
 ;::ascii emoticon::http://upli.st/l/list-of-all-ascii-emoticons
@@ -127,10 +127,10 @@ ConvertUtf8(ByRef string)
 ::move move::ᕕ( ᐛ )ᕗ
 ::kame yooooko::( ﾟ∀ﾟ)ｱﾊﾊ八八ﾉヽﾉヽﾉヽﾉ ＼ / ＼/ ＼
 ::heroku one instance::heroku ps:scale web=1
-::format dir::node D:/work-station/node-scripts/format-file-name-in-dir/index.js
+::format dir::node C:/work-station/node-scripts/format-file-name-in-dir/index.js
 ::fuckkkk::t(-__-t)
 ::sandbox::cd /d D:/storage & D:/storage/locker.bat & clear
-::parse blade::node D:/work-station/node-scripts/parse-blade/index.js
+::parse blade::node C:/work-station/node-scripts/parse-blade/index.js
 ::node increase memory size::node --max-old-space-size=1024
 ::node memmory::node --max-old-space-size=1024
 ::node increase mem size::node --max-old-space-size=1024
@@ -139,9 +139,9 @@ ConvertUtf8(ByRef string)
 ;::live serve::live-server --port=3000 --host=localhost --browser=chrome --wait=1000
 ::live serve::live-server --host=localhost --wait=1000 --port=3000
 ::favicon tag::<link rel="icon" href="data:;base64,iVBORwOKGO=" />
-::update d dns::php D:/work-station/digital-ocean-dynamic-dns-updater/updater.php 1f74dc9d52266c58c4726c43b1ddcebef199794e66b4d8d838cf852e93dec3c7 tinker.press auto-home
-::npm default::php D:/work-station/php-scripts/default-package.php & php D:/work-station/php-scripts/make-gitignore.php
-::calc::node D:/work-station/node-scripts/calculator/index.js
+::update d dns::php C:/work-station/digital-ocean-dynamic-dns-updater/updater.php 1f74dc9d52266c58c4726c43b1ddcebef199794e66b4d8d838cf852e93dec3c7 tinker.press auto-home
+::npm default::php C:/work-station/php-scripts/default-package.php & php C:/work-station/php-scripts/make-gitignore.php
+::calc::node C:/work-station/node-scripts/calculator/index.js
 ::get bootstrap css::<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" />
 ::get boostrap js::<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 ::lorem single::Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -172,26 +172,26 @@ ConvertUtf8(ByRef string)
 ::yahoo::(ﾉ^∇^)ﾉﾟ
 ::yahoo::Send {(ﾉ{^}∇^)ﾉﾟ}
 ::enable service::systemctl enable <name>.service
-::random pass::node D:\work-station\node-scripts\random-pass\index.js
+::random pass::node C:\work-station\node-scripts\random-pass\index.js
 ::arteastiq pass::L5htMG7qNJss454v
 ::github embed youtube::[![video thumbnail](https://i.ytimg.com/vi/woq-z6a0Q_Y/2.jpg?time=1485757017422)](https://youtu.be/woq-z6a0Q_Y)
 ::known host::C:\Users\admin\.ssh
 ::la la la::＼＿ヘ(ᐖ◞)､
 ::init console image::{!}function(a){{}let b=function(a,b){{}return{{}string:"{+}",style:"font-size: 1px; padding: "{+}Math.floor(b/2){+}"px "{+}Math.floor(a/2){+}"px; line-height: "{+}b{+}"px;"{}}{}},c=function(c,d){{}d=d||1;let e=new Image;e.onload=function(){{}let e=b(this.width*d,this.height*d);a.log("%c"{+}e.string,e.style{+}"background: url("{+}c{+}"); background-size: "{+}this.width*d{+}"px "{+}this.height*d{+}"px; color: transparent;"){}},e.src=c{}};a.image=c{}}(console);
 ::smile::(ﾟヮﾟ)
-::create custom element::subl D:\work-station\snippets\custom-element.html
+::create custom element::subl C:\work-station\snippets\custom-element.html
 ::docker terminal::sh "C:\Program Files\Docker Toolbox\start.sh"
 ::ssh reservation::ssh root@alfred.hoipos.com
 ::ssh hoipos::ssh root@pos.hoicard.com
 ::set mysql pass::mysqladmin -u root password NEWPASSWORD
 ::change mysql pass::mysqladmin -u root -p'oldpassword' password newpass
-::demo bash file::D:\work-station\demo.sh
+::demo bash file::C:\work-station\demo.sh
 ::gitzip::access_token=4a7056919a0a71202a544332e65cc82898b417c5&scope=repo&token_type=bearer
 ::start mysql::mysqld --datadir="C:\ProgramData\MySQL\MySQL Server 5.7\Data"
-::create reducer::subl "D:\work-station\simple-reducer.js"
+::create reducer::subl "C:\work-station\simple-reducer.js"
 ::top memory::ps aux --sort=-%mem | awk 'NR<=10{{}print $0{}}'
-::path work station::path:d:\work-station
-::workstation path::path:d:\work-station
+::path work station::path:C:\work-station
+::workstation path::path:C:\work-station
 ::no inspector:://noinspection JSUnresolvedFunction
 ::warn background::FDD835
 ::nowlog::copy(moment().format('YYYY-MM-DD HH:mm:ss'))
@@ -199,9 +199,9 @@ ConvertUtf8(ByRef string)
 ::fiddle::https://fiddle.jshell.net/
 ::flip table::(╯°□°）╯︵ ┻━┻﻿
 ::ssh vagrant::vagrant ssh
-::start ubuntu 14::cd d:\work-station\vagrant-images\ubuntu-trusty64 && vagrant up && vagrant ssh
-::start ubuntu 16::cd d:\work-station\vagrant-images\ubuntu-1604 && vagrant up && vagrant ssh
-;::start ubuntu::cd d:\work-station\vagrant-images\ubuntu-xenial64 && vagrant up && vagrant ssh
+::start ubuntu 14::cd C:\work-station\vagrant-images\ubuntu-trusty64 && vagrant up && vagrant ssh
+::start ubuntu 16::cd C:\work-station\vagrant-images\ubuntu-1604 && vagrant up && vagrant ssh
+;::start ubuntu::cd C:\work-station\vagrant-images\ubuntu-xenial64 && vagrant up && vagrant ssh
 ::mklink junction::mklink /J <des> <src>
 ::make junction::mklink /J <des> <src>
 ::console facebook::developers.facebook.com
@@ -210,5 +210,5 @@ ConvertUtf8(ByRef string)
 ::cloud function::https://console.cloud.google.com/functions/list?project=glass-turbine-148103
 ::firebase console::https://console.firebase.google.com/project/glass-turbine-148103/overview
 ::ssh ec2::ssh root@ec2.tinker.press
-::ssh do2::ssh root@do2.tinker.press
+;::ssh do2::ssh root@do2.tinker.press
 ::prettier default::prettier --write --no-semi --print-width 120 *
