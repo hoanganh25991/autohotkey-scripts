@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #SingleInstance force
 #Include E:\work-station\autohotkey-scripts\open-cmd.ahk
 #Include E:\work-station\autohotkey-scripts\php-hotkey-$.ahk
@@ -10,3 +11,17 @@
 #Include E:\work-station\autohotkey-scripts\hint.ahk
 #Include E:\work-station\autohotkey-scripts\server-command.ahk
 #Include E:\work-station\autohotkey-scripts\mysql.ahk
+=======
+#SingleInstance force
+#Include C:\work-station\autohotkey-scripts\open-cmd.ahk
+#Include C:\work-station\autohotkey-scripts\php-hotkey-$.ahk
+#Include C:\work-station\autohotkey-scripts\autohotkey-command.ahk
+#Include C:\work-station\autohotkey-scripts\special-character.ahk
+#Include C:\work-station\autohotkey-scripts\useful-command.ahk
+#Include C:\work-station\autohotkey-scripts\git-command.ahk
+#Include C:\work-station\autohotkey-scripts\php-command.ahk
+#Include C:\work-station\autohotkey-scripts\me.ahk
+#Include C:\work-station\autohotkey-scripts\hint.ahk
+#Include C:\work-station\autohotkey-scripts\server-command.ahk
+#Include C:\work-station\autohotkey-scripts\mysql.ahk
+>>>>>>> 61f183ee400949838c09be456afb749e78844b6d
