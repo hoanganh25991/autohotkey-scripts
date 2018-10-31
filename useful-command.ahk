@@ -5,7 +5,7 @@
 
 ::sendto::%appdata%/microsoft/windows/sendto
 
-::hotkey::%programfiles%/AutoHotkey/scripts
+::hotkey::E:/work-station/autohotkey-scripts
 
 ;dc index transform
 ::dc index transform::php %PHP_SCRIPTS%/dc-js-index-transform.php
@@ -50,7 +50,7 @@ return
 ::get mac address::getmac
 ;::mac address::getmac
 
-::ls::ls -la
+;::ls::ls -la
 
 ::start menu::C:/ProgramData/Microsoft/Windows/Start Menu/Programs
 
@@ -59,23 +59,23 @@ return
 
 ::cygwin::C:/Users/hoanganh25991/cygwin
 
-::default gitignore::php D:/work-station/php-scripts/make-gitignore.php
-::make gitignore::php D:/work-station/php-scripts/make-gitignore.php
-::generate gitignore::php D:/work-station/php-scripts/make-gitignore.php
+::default gitignore::php E:/work-station/php-scripts/make-gitignore.php
+::make gitignore::php E:/work-station/php-scripts/make-gitignore.php
+::generate gitignore::php E:/work-station/php-scripts/make-gitignore.php
 
 ::ssh bea::ssh bea@192.168.0.78
 
-::default package::php D:/work-station/php-scripts/default-package.php
+::default package::php E:/work-station/php-scripts/default-package.php
 
-::format filename::node D:/work-station/node-scripts/format-file-name/index.js
+::format filename::node E:/work-station/node-scripts/format-file-name/index.js
 
-::format file name::node D:/work-station/node-scripts/format-file-name/index.js
+::format file name::node E:/work-station/node-scripts/format-file-name/index.js
 
-;::parse markdown::php D:/work-station/php-scripts/parse-markdown.php
+;::parse markdown::php E:/work-station/php-scripts/parse-markdown.php
 
-::node script::D:/work-station/node-scripts
+::node script::E:/work-station/node-scripts
 
-::parse markdown::node D:/work-station/node-scripts/parse-markdown-github-style/index.js
+::parse markdown::node E:/work-station/node-scripts/parse-markdown-github-style/index.js
 
 ::ssh pie::ssh pi@192.168.0.9
 
@@ -126,10 +126,10 @@ ConvertUtf8(ByRef string)
 ::move move::ᕕ( ᐛ )ᕗ
 ::kame yooooko::( ﾟ∀ﾟ)ｱﾊﾊ八八ﾉヽﾉヽﾉヽﾉ ＼ / ＼/ ＼
 ::heroku one instance::heroku ps:scale web=1
-::format dir::node D:/work-station/node-scripts/format-file-name-in-dir/index.js
+::format dir::node E:/work-station/node-scripts/format-file-name-in-dir/index.js
 ::fuckkkk::t(-__-t)
 ::sandbox::cd /d D:/storage & D:/storage/locker.bat & clear
-::parse blade::node D:/work-station/node-scripts/parse-blade/index.js
+::parse blade::node E:/work-station/node-scripts/parse-blade/index.js
 ::node increase memory size::node --max-old-space-size=1024
 ::node memmory::node --max-old-space-size=1024
 ::node increase mem size::node --max-old-space-size=1024
@@ -138,9 +138,9 @@ ConvertUtf8(ByRef string)
 ;::live serve::live-server --port=3000 --host=localhost --browser=chrome --wait=1000
 ::live serve::live-server --host=localhost --wait=1000 --port=3000
 ::favicon tag::<link rel="icon" href="data:;base64,iVBORwOKGO=" />
-::update d dns::php D:/work-station/digital-ocean-dynamic-dns-updater/updater.php 1f74dc9d52266c58c4726c43b1ddcebef199794e66b4d8d838cf852e93dec3c7 tinker.press auto-home
-::npm default::php D:/work-station/php-scripts/default-package.php & php D:/work-station/php-scripts/make-gitignore.php
-::calc::node D:/work-station/node-scripts/calculator/index.js
+::update d dns::php E:/work-station/digital-ocean-dynamic-dns-updater/updater.php 1f74dc9d52266c58c4726c43b1ddcebef199794e66b4d8d838cf852e93dec3c7 tinker.press auto-home
+::npm default::php E:/work-station/php-scripts/default-package.php & php E:/work-station/php-scripts/make-gitignore.php
+::calc::node E:/work-station/node-scripts/calculator/index.js
 ::get bootstrap css::<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" />
 ::get boostrap js::<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 ::lorem single::Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -198,3 +198,12 @@ ConvertUtf8(ByRef string)
 ::fiddle::https://fiddle.jshell.net/
 ::flip table::(╯°□°）╯︵ ┻━┻﻿
 ::ssh vagrant::vagrant ssh
+::git log::git log --oneline
+::cat::more
+::process at port::lsof -t -i:
+::process on port::lsof -t -i:
+::mac command::⌘
+::mac option::⌥
+;::mac control:⌃
+::mac shift::⇧
+::mac capslock::⇪
